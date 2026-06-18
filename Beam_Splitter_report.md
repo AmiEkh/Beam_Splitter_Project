@@ -26,7 +26,7 @@ the mode solver, supermode solver, and FDTD simulations. These platform assumpti
 waveguide cross-section, the optical confinement, and the expected fabrication constraints for the
 directional coupler. The main platform and design specifications used throughout the design flow
 are summarized in Table 1.
-**Python scripts and dataset:** https://github.com/AmiEkh/Flexcompute-Hackathon
+**Python scripts and dataset:** https://github.com/AmiEkh/Beam_Splitter_Project
 
 
 **Table 1: Target platform and design specifications for the silicon photonic beam-splitter design.**

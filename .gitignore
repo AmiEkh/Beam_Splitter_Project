@@ -48,13 +48,41 @@ plots/
 # ============================================================
 # GDS / layout files
 # ============================================================
-gds/
+
+# Ignore generated layout folders by default,
+# but allow selected final GDS files to be tracked.
+gds/*
 layouts/
 *.gds
 *.oas
 *.lyp
 *.lyrdb
 *.klayout
+
+# Allow the gds folder itself
+!gds/
+
+# Keep selected final GDS files inside gds/
+!gds/ALL_TS_organized.gds
+!gds/final_chip_4x9_bs_array.gds
+!gds/TS01.gds
+!gds/TS02.gds
+!gds/TS03.gds
+!gds/TS04.gds
+!gds/TS05.gds
+!gds/TS06.gds
+!gds/TS07.gds
+
+# Also keep them if they are in the project root
+!ALL_TS_organized.gds
+!final_chip_4x9_bs_array.gds
+!TS01.gds
+!TS02.gds
+!TS03.gds
+!TS04.gds
+!TS05.gds
+!TS06.gds
+!TS07.gds
 
 # ============================================================
 # Lumerical simulation files
